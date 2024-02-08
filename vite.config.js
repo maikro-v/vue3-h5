@@ -47,9 +47,9 @@ export default defineConfig(({ mode }) => {
       host: true,
       proxy: {
         "^/api": {
-          target: 'http://jsonplaceholder.typicode.com',
+          target: 'http://127.0.0.1',
           changeOrigin: true,
-          rewrite: (path) => path.replace(/^\/api/, ''),
+          rewrite: (path) => path.replace(/^\/api/, '/api'),
         }
       }
     }

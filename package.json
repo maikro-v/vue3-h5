@@ -20,6 +20,7 @@
     "@vitejs/plugin-vue": "^5.0.3",
     "autoprefixer": "^10.4.17",
     "cnjm-postcss-px-to-viewport": "^1.0.1",
+    "mockjs": "^1.1.0",
     "postcss": "^8.4.33",
     "sass": "^1.70.0",
     "unocss": "^0.58.4",

@@ -14,10 +14,14 @@ import 'vant/es/dialog/style'; // Dialog
 import 'vant/es/notify/style'; // Notify
 import 'vant/es/image-preview/style'; // ImagePreview
 
+// 全局api接口
+import api from '@/api'
+
 import App from './App.vue'
 import router from './router'
 
 const app = createApp(App)
 app.use(createPinia())
 app.use(router)
+app.use(api)
 app.mount('#app')
